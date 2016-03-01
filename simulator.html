@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+<style>
+form {
+    width: 800px;
+    height:  600px;
+    margin: 30px;
+    margin-left: 400px;
+    border: 1px solid grey;
+    vertical-align: middle
+    horizontal-align: middle
+  }
+
+span.simulator_head {
+    padding: 80px;
+    height:  0px;
+}
+
+/*
+#simulator_main {
+    color: rgba(0,0,255,0.55);
+}
+*/
+
+select.menu {
+    padding: 20px;
+    margin:  40px;
+}
+
+</style>
+  <title>Simulator</title>
+  <meta charset="UTF-8">
+  <link href="site.css" rel="stylesheet">
+</head>
+
+
+<body>
+<nav id="nav01"></nav>
+
+<span  id="simulator_main">
+<form action="test.php" method="post" style="text-align:center;background-image:url(rugby_italie_angleterre.jpg);background-size: 100% 100%;" action="action_page.php">
+  
+  <br> <br>
+
+  <span style="color: rgba(255,0,0,0.65);font-size: 200%;font-family:Impact, Charcoal, sans-serif;text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;" class="simulator_head">Team 1</span>          <span style="color: rgba(0,0,255,0.45);font-size: 200%;font-family:Impact, Charcoal, sans-serif;text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,0 0 0.2em #87F" class="simulator_head">Team 2</span> 
+
+  <br><br>
+  
+  <select input style="color: rgba(255,0,0,0.65);font-size: 200%;font-family:Impact, Charcoal, sans-serif" class="menu" name="team1">
+    <option value="England" selected> England </option>
+    <option value="France" > France </option>
+    <option value="Scotland"> Scotland </option>
+    <option value="Wales"> Wales </option>
+    <option value="Rd"> Random </option>
+  </select>
+
+ <select style="color: rgba(0,0,255,0.65);font-size: 200%;font-family:Impact, Charcoal, sans-serif" class="menu" name="team2">
+    <option value="England" > England </option>
+    <option value="France" selected> France </option>
+    <option value="Scotland"> Scotland </option>
+    <option value="Wales"> Wales </option>
+    <option value="Rd"> Random </option>
+  </select>
+
+  <br><br>
+  <input type="submit" value="Get Selected Values"/>
+ </form> 
+</span>
+
+<div id="main">
+
+<h1>Simulator</h1>
+
+
+<footer id="foot01"></footer>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+/*
+
+ 
+
+
+
+*/
