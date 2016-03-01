@@ -3,9 +3,7 @@
 $param1 = $_POST['team1'];
 $param2 = $_POST['team2'];
  
-$command = "python main_simulateur.py";
-$command .= " $param1 $param2 2>&1";
-
+$command = "python interface.py";
 
 header('Content-Type: text/html; charset=utf-8');
 echo '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />';
